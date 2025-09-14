@@ -62,13 +62,33 @@ The purpose of this project is to transform raw B2B sales pipeline data into mea
 - Analyze quarterly sales trends in opportunities and revenue.
 
 ## Expected Outcome
+The goal of this project is to turn raw B2B sales pipeline data into practical insights that can improve decision-making and sales effectiveness. By applying Excel tools such as PivotTables, PivotCharts, and dashboards, the analysis will highlight key performance areas and opportunities for improvement.
 
+**The expected outcomes include:**
+
+- A clear understanding of sales team performance, showing which teams generate the most revenue and maintain stronger win rates.
+
+- Identification of top-performing and underperforming agents, supporting targeted training and performance management.
+
+- Visibility into quarterly sales patterns, revealing growth, decline, or seasonal trends.
+
+- Insights into product performance, identifying which products have higher win rates and revenue contribution.
+
+- An interactive Excel dashboard that enables stakeholders to explore the data and make informed business decisions.
 
 ## Document Purpose
-
+The purpose of this document is to provide a clear understanding of the B2B sales pipeline analysis project, its scope, and the insights it delivers. It serves as a guide for anyone reviewing the project, ensuring they understand why it was created and how it can be used.
 
 ## Use Case
+This project demonstrates how Excel can be used to analyze a B2B sales pipeline for a fictitious computer hardware company. It provides value by:
 
+Helping management track sales performance and guide strategy.
+
+Enabling sales teams and agents to measure progress and improve results.
+
+Allowing marketing teams to identify high-demand products and plan targeted campaigns.
+
+Supporting data-driven decisions on pricing, promotions, and resource allocation.
 
 ## Data Source
 
