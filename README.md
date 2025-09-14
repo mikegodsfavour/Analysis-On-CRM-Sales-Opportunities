@@ -82,27 +82,64 @@ The purpose of this document is to provide a clear understanding of the B2B sale
 ## Use Case
 This project demonstrates how Excel can be used to analyze a B2B sales pipeline for a fictitious computer hardware company. It provides value by:
 
-Helping management track sales performance and guide strategy.
+- Helping management track sales performance and guide strategy.
 
-Enabling sales teams and agents to measure progress and improve results.
+- Enabling sales teams and agents to measure progress and improve results.
 
-Allowing marketing teams to identify high-demand products and plan targeted campaigns.
+- Allowing marketing teams to identify high-demand products and plan targeted campaigns.
 
-Supporting data-driven decisions on pricing, promotions, and resource allocation.
+- Supporting data-driven decisions on pricing, promotions, and resource allocation.
 
 ## Data Source
 The dataset for this project is sourced from the [Maven Analytics website](https://app.mavenanalytics.io/datasets?search=crm+sales) platform. Designed specifically for practice and learning purposes, it simulates a CRM sales opportunities dataset for a fictitious computer hardware company. The dataset was downloaded in CSV format and contains 4 related tables with a total of 1,000+ rows of sales pipeline data.
 
-Accounts Table contain information about accounts, and it has 86 rows and 7 columns. Which is Account, Sector, Year_established, Revenue, Employees, Office_location,	Subsidiary_of
+- Accounts Table contain information about accounts, and it has 86 rows and 7 columns. Which is Account, Sector, Year_established, Revenue, Employees, Office_location,	Subsidiary_of
 
-Products Table contain information about products, and it has 8 rows and 3 columns. Which is Products, Series, Sales Price
+- Products Table contain information about products, and it has 8 rows and 3 columns. Which is Products, Series, Sales Price
 
-Sales Teams Table contain information about sales teams, and it has 36 rows and 3 columns. Which is Sales Agent, Manager, Regional Office.
+- Sales Teams Table contain information about sales teams, and it has 36 rows and 3 columns. Which is Sales Agent, Manager, Regional Office.
 
-Sales Opportunities Table contain information about sales opportunities, and it has 8,801 rows and 8 columns. Which is Opportunity ID, Account, Product, Sales Agent, deal Stage, Engage Date, Close Date,  Close Value.
+- Sales Opportunities Table contain information about sales opportunities, and it has 8,801 rows and 8 columns. Which is Opportunity ID, Account, Product, Sales Agent, deal Stage, Engage Date, Close Date,  Close Value.
 
 ## Data Cleaning and Processing
+The dataset was initially provided in a ZIP file, which contained the raw data in CSV format. To make it easier to work with, the CSV files were exported and organized into Excel worksheets. These worksheets held four main tables: Accounts, Products, Sales Teams, and Sales Opportunities.
 
+**The following steps were carried out to prepare the dataset for analysis:**
+
+**1. Table Integration**
+Used VLOOKUP to connect the four tables together using their unique identifiers. The central table, Sales Opportunities (Sales Pipeline), carried the key identifiers including Opportunity ID, Accounts, Products, and Sales Agent. This made it possible to combine information from all supporting tables into one complete dataset.
+
+**2. Data Cleaning**
+
+- Removed missing and incomplete records to ensure accuracy.
+
+- Verified and standardized column formats, especially dates and numeric fields.
+
+- Checked for consistency across related tables.
+
+**3. Analysis Preparation**
+With the cleaned and combined dataset, Excel tools were applied to explore insights:
+
+- PivotTables were used to summarize sales performance, product outcomes, and team contributions.
+
+- PivotCharts were created to visualize results in chart form.
+
+- Finally, an interactive Excel Dashboard was developed to present the key findings clearly and effectively.
+
+This process ensured that the dataset was fully prepared, reliable, and structured for meaningful analysis and visualization.
+
+**Data Workflow**  
+
+```mermaid
+flowchart TD
+    A[ZIP File] --> B[CSV Files]
+    B --> C[Excel Worksheets]
+    C --> D[VLOOKUP Integration]
+    D --> E[Data Cleaning]
+    E --> F[Sales Pipeline Table with Unique Identifiers]
+    F --> G[PivotTables]
+    G --> H[PivotCharts]
+    H --> I[Excel Dashboard]
 
 ## Data Analysis
 
