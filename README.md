@@ -91,7 +91,15 @@ Allowing marketing teams to identify high-demand products and plan targeted camp
 Supporting data-driven decisions on pricing, promotions, and resource allocation.
 
 ## Data Source
+The dataset for this project is sourced from the [Maven Analytics website](https://app.mavenanalytics.io/datasets?search=crm+sales) platform. Designed specifically for practice and learning purposes, it simulates a CRM sales opportunities dataset for a fictitious computer hardware company. The dataset was downloaded in CSV format and contains 4 related tables with a total of 1,000+ rows of sales pipeline data.
 
+Accounts Table contain information about accounts, and it has 86 rows and 7 columns. Which is Account, Sector, Year_established, Revenue, Employees, Office_location,	Subsidiary_of
+
+Products Table contain information about products, and it has 8 rows and 3 columns. Which is Products, Series, Sales Price
+
+Sales Teams Table contain information about sales teams, and it has 36 rows and 3 columns. Which is Sales Agent, Manager, Regional Office.
+
+Sales Opportunities Table contain information about sales opportunities, and it has 8,801 rows and 8 columns. Which is Opportunity ID, Account, Product, Sales Agent, deal Stage, Engage Date, Close Date,  Close Value.
 
 ## Data Cleaning and Processing
 
