@@ -145,6 +145,8 @@ From the analysis, it becomes clear that some managers oversee teams that are co
 
 The PivotTable was structured with sales agents in the rows and revenue as the value, which provided a clear view of how individual agents are performing relative to one another. This setup allowed us to see variations in contribution across all agents, highlighting both the stronger performers and those who are not keeping pace.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/sales%20agents%20lagging%20behind.png)
+
 **Insight from the analysis**
 
 From the analysis, it becomes clear that while some agents generate a high share of revenue, others are lagging behind compared to their peers. This information is useful for identifying agents who may require additional support, coaching, or performance review to bring them closer in line with team expectations.
