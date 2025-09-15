@@ -153,6 +153,8 @@ From the analysis, it becomes clear that while some agents generate a high share
 
 I grouped the data by quarters using the engagement and close dates, with revenue as the value. This setup allowed me to compare sales performance across Q1, Q2, Q3, and Q4. By doing this, I was able to clearly see how each quarter performed and how revenue shifted over time.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/quarter%20over%20qurater%20trend.png)
+
 **Insight from the analysis**
 
 From the analysis, Q2 recorded the highest revenue, making it the strongest quarter of the year. Q4 followed next, showing another strong performance, while Q3 ranked third. Q1 had the lowest revenue, indicating a weaker start compared to the rest of the year. This trend shows that sales activity tends to peak in Q2, remain strong in Q4, and slow down in Q1. These insights can help in planning, especially to boost performance in the weaker quarters.
