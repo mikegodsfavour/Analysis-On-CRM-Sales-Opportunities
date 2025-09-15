@@ -161,6 +161,8 @@ From the analysis, Q2 recorded the highest revenue, making it the strongest quar
 
 A PivotTable was set up with products in the rows, deal stage in the columns, and opportunity IDs as the values. The deal stages included Engaging, Prospecting, Lost, and Won, which made it possible to see how opportunities moved across these stages for each product. This structure highlighted how many opportunities were successfully converted compared to those still in progress or lost.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/products%20with%20better%20win%20rate.png)
+
 **Insight from the analysis**
 
 The result shows that some products had a higher number of opportunities reaching the Won stage, meaning they were converted into successful deals more often. Others had more opportunities stuck in Engaging or Prospecting, or ending in Lost, which lowered their overall win rates and may require stronger sales or marketing support. This helps the business focus on products that perform best while improving strategies for those that lag behind.
