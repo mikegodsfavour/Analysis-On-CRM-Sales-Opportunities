@@ -170,6 +170,8 @@ The result shows that some products had a higher number of opportunities reachin
 
 A PivotTable was set up with Product in the rows and Revenue in the values. This helped me identify which products generated the highest revenue compared to others.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/Products%20that%20generat%20the%20most%20revenue.png)
+
 **Insight from the analysis**
 
 GTX Basic contributed the highest share of revenue, accounting for $4,121,351.31  of the total.
