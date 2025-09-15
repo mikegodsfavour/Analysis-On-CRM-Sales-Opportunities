@@ -211,6 +211,8 @@ This shows that while some managers (like Summer Sewald and Dustin Brinkmann) ar
 
 For visualization, I designed an interactive dashboard in Excel to summarize and present the sales pipeline analysis. The dashboard is chart-based and supported with key performance indicators (KPIs) to give a quick overview of business performance.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/EXCEL%20DASHBOARD.png)
+
 **The main features of the dashboard are:**
 
 - KPIs: Showing the Number of Deals and Total Revenue for quick performance tracking.
