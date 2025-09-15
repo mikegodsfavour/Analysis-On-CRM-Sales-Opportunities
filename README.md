@@ -60,6 +60,10 @@ The purpose of this project is to transform raw B2B sales pipeline data into mea
 - Identify top-performing and lagging sales agents.
 
 - Analyze quarterly sales trends in opportunities and revenue.
+- 
+- Evaluate product win rates to determine strong and weak performers.
+  
+- Build an interactive Excel dashboard to visualize insights and support decision-making.
 
 ## Expected Outcome
 The goal of this project is to turn raw B2B sales pipeline data into practical insights that can improve decision-making and sales effectiveness. By applying Excel tools such as PivotTables, PivotCharts, and dashboards, the analysis will highlight key performance areas and opportunities for improvement.
@@ -128,31 +132,120 @@ With the cleaned and combined dataset, Excel tools were applied to explore insig
 
 This process ensured that the dataset was fully prepared, reliable, and structured for meaningful analysis and visualization.
 
-**Data Workflow**  
-
-```mermaid
-flowchart TD
-    A[ZIP File] --> B[CSV Files]
-    B --> C[Excel Worksheets]
-    C --> D[VLOOKUP Integration]
-    D --> E[Data Cleaning]
-    E --> F[Sales Pipeline Table with Unique Identifiers]
-    F --> G[PivotTables]
-    G --> H[PivotCharts]
-    H --> I[Excel Dashboard]
-
 ## Data Analysis
+**1. How is each sales team performing compared to the rest?**
+
+The setup, using managers and their sales agents in the PivotTable, allows us to evaluate the performance of each sales team compared to the rest. By grouping agents under their respective managers, we can see which teams are contributing strongly and which ones are lagging.
+
+**Insight from the analysis**
+
+From the analysis, it becomes clear that some managers oversee teams that are consistently ahead of others in terms of contribution, while a few sales agents within certain teams stand out as top performers. This approach highlights both team-level performance and individual agent effectiveness, helping to identify strong teams and those that may need additional support.
+
+**2. Are any sales agents lagging behind?**
+
+The PivotTable was structured with sales agents in the rows and revenue as the value, which provided a clear view of how individual agents are performing relative to one another. This setup allowed us to see variations in contribution across all agents, highlighting both the stronger performers and those who are not keeping pace.
+
+**Insight from the analysis**
+
+From the analysis, it becomes clear that while some agents generate a high share of revenue, others are lagging behind compared to their peers. This information is useful for identifying agents who may require additional support, coaching, or performance review to bring them closer in line with team expectations.
+
+**3. Can you identify any quarter-over-quarter trends?**
+
+I grouped the data by quarters using the engagement and close dates, with revenue as the value. This setup allowed me to compare sales performance across Q1, Q2, Q3, and Q4. By doing this, I was able to clearly see how each quarter performed and how revenue shifted over time.
+
+**Insight from the analysis**
+
+From the analysis, Q2 recorded the highest revenue, making it the strongest quarter of the year. Q4 followed next, showing another strong performance, while Q3 ranked third. Q1 had the lowest revenue, indicating a weaker start compared to the rest of the year. This trend shows that sales activity tends to peak in Q2, remain strong in Q4, and slow down in Q1. These insights can help in planning, especially to boost performance in the weaker quarters.
+
+**4. Do any products have better win rates?**
+
+A PivotTable was set up with products in the rows, deal stage in the columns, and opportunity IDs as the values. The deal stages included Engaging, Prospecting, Lost, and Won, which made it possible to see how opportunities moved across these stages for each product. This structure highlighted how many opportunities were successfully converted compared to those still in progress or lost.
+
+**Insight from the analysis**
+
+The result shows that some products had a higher number of opportunities reaching the Won stage, meaning they were converted into successful deals more often. Others had more opportunities stuck in Engaging or Prospecting, or ending in Lost, which lowered their overall win rates and may require stronger sales or marketing support. This helps the business focus on products that perform best while improving strategies for those that lag behind.
+
+
+**5. Which product generated the most revenue?**
+
+A PivotTable was set up with Product in the rows and Revenue in the values. This helped me identify which products generated the highest revenue compared to others.
+
+**Insight from the analysis**
+
+GTX Basic contributed the highest share of revenue, accounting for $4,121,351.31  of the total.
+
+MG Advanced followed with about $3,094,260.92.
+ 
+GTX Plus Basic made up $2,911,772.16.
+
+MG Special contributed  $2,731,859.28 .
+
+GTS Plus Pro had $2,016,191.36.
+
+Finally, GTK 500 recorded the lowest with $128,566.87 of total revenue.
+
+This shows that GTX Basic is the strongest revenue driver, while GTK 500 contributes very little. The company could focus on sustaining top-performing products while reviewing strategies for the weaker ones.
+
+**6. Sales performance by each manager**
+
+A PivotTable was set up with Manager in the rows and Revenue in the values. This allowed me to compare the performance of each sales manager based on the total revenue their teams generated.
+
+**Insight from the analysis**
+
+Summer Sewald recorded the highest revenue contribution, accounting for $3,348,224.04 of revenue.
+
+Dustin Brinkmann followed closely with $2,650,522.82 of revenue.
+
+Celia Rouche came next with $2,638,097.18 of revenue.
+
+Then Malvin Marxen with $2,365,197.69 of revenue.
+
+Rocco Neubert with $2,262,633.13 of revenue.
+
+and finally Cara Losch, who generated the lowest revenue among the managers with $1,739,327.03 of revenue.
+
+This shows that while some managers (like Summer Sewald and Dustin Brinkmann) are leading strongly in sales performance, others may need support or new strategies to improve their teams’ contributions.
 
 
 ## Data Visualization
 
+For visualization, I designed an interactive dashboard in Excel to summarize and present the sales pipeline analysis. The dashboard is chart-based and supported with key performance indicators (KPIs) to give a quick overview of business performance.
+
+**The main features of the dashboard are:**
+
+- KPIs: Showing the Number of Deals and Total Revenue for quick performance tracking.
+
+- Charts: Visuals covering sales team performance, quarterly revenue, deal stage progress, product performance, and manager contribution.
+
+- Slicer: A product-based slicer that allows users to filter and view performance insights by specific products.
+
+This setup makes it easy to monitor overall sales activity, identify high-performing products, and understand revenue distribution across teams and managers in a simple, interactive way.
 
 ## Recommendation
 
+Based on the analysis, several steps can help improve sales performance and decision-making:
+
+- Focus on High-Performing Products: Products like GTX Basic and MG Advanced should remain a priority since they bring in the most revenue. Marketing and promotions can be strengthened around them.
+
+- Support Lower-Performing Products: Products such as GTK 500 need review. Adjustments in pricing, promotion, or sales strategies may help boost their performance.
+
+- Strengthen Sales Teams: Identify sales agents or managers with lower results and provide targeted training, support, or resources to improve their output.
+
+- Leverage Seasonal Trends: Since Q2 recorded the highest sales, the company should plan campaigns, stock, and promotions to maximize this period while also finding ways to improve Q1.
+
+- Improve Deal Conversion: Deal stages show that not all opportunities move to “Won.” Focus should be placed on improving engagement and conversion strategies to reduce losses.
 
 ## Conclusion
 
+This project analyzed a fictitious B2B sales pipeline dataset to evaluate sales team performance, product win rates, quarterly revenue trends, and overall sales outcomes. Using Excel tools such as PivotTables, PivotCharts, and Dashboards, the analysis provided clear insights into how different managers, agents, and products contribute to total revenue.
 
-- Evaluate product win rates to determine strong and weak performers.
+The findings highlight the best-performing products and teams, seasonal trends that affect revenue, and areas where improvement is needed. With the help of interactive dashboards and KPIs, management can easily monitor sales progress, make data-driven decisions, and design strategies that strengthen both product and team performance.
 
-- Build an interactive Excel dashboard to visualize insights and support decision-making.
+Thank You For Reading
+
+I’m interested in a Data Analyst role in an organization where I can showcase my skills, take more responsibilities, continue to learn, an organization that I can grow with, where my work will be highly beneficial to the organization.
+
+You can reach me on mikefavour99@gmail.com
+
+THANK YOU
+
