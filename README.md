@@ -137,6 +137,8 @@ This process ensured that the dataset was fully prepared, reliable, and structur
 
 The setup, using managers and their sales agents in the PivotTable, allows us to evaluate the performance of each sales team compared to the rest. By grouping agents under their respective managers, we can see which teams are contributing strongly and which ones are lagging.
 
+![](https://github.com/mikegodsfavour/Analysis-On-CRM-Sales-Opportunities/blob/main/SALES%20TEAM.png)
+
 **Insight from the analysis**
 
 From the analysis, it becomes clear that some managers oversee teams that are consistently ahead of others in terms of contribution, while a few sales agents within certain teams stand out as top performers. This approach highlights both team-level performance and individual agent effectiveness, helping to identify strong teams and those that may need additional support.
